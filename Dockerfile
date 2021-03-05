@@ -1,6 +1,6 @@
 FROM adoptopenjdk/openjdk11:alpine as lvg_download
 
-ARG LVG_URL=https://lexsrv3.nlm.nih.gov/LexSysGroup/Projects/lvg/current/release/lvg2020.tgz
+ARG LVG_URL=https://data.lhncbc.nlm.nih.gov/lsg/lvg/2021/release/lvg2021.tgz
 
 RUN wget -O lvg.tar.gz $LVG_URL
 

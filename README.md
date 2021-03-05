@@ -13,12 +13,12 @@ PRs are welcomed.
 ```
     docker login -u doctorevidence
 
-    docker build -t doctorevidence/lexical-tools-lvg:2020 .
-    docker push doctorevidence/lexical-tools-lvg:2020
+    docker build -t doctorevidence/lexical-tools-lvg:2021 .
+    docker push doctorevidence/lexical-tools-lvg:2021
 ```
 
 ### Auotmated image publish on Docker Hub
 
 The image is built and published automatically on DoctorEvidence Docker Hub account https://hub.docker.com/r/doctorevidence/lexical-tools-lvg .
 
-Autobuilds are for `main` branch and tags composed of numbers (LVG release years, e.g. 2020).
+Autobuilds are for `main` branch and tags composed of numbers (LVG release years, e.g. 2021).
