@@ -8,8 +8,6 @@ PRs are welcomed.
 
 ## Build and publish
 
-
-
 ```
     docker login -u doctorevidence
 
@@ -17,7 +15,7 @@ PRs are welcomed.
     docker push doctorevidence/lexical-tools-lvg:2021
 ```
 
-### Auotmated image publish on Docker Hub
+### Automated image publish on Docker Hub
 
 The image is built and published automatically on DoctorEvidence Docker Hub account https://hub.docker.com/r/doctorevidence/lexical-tools-lvg .
 
