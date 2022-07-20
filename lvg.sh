@@ -17,7 +17,7 @@ JDBC=
 # ------------------
 # Set the classpath
 # ------------------
-CLASSPATH="${JDBC}:${LVG_DIR}:${LVG_DIR}/lib/lvg2021dist.jar:"
+CLASSPATH="${JDBC}:${LVG_DIR}:${LVG_DIR}/lib/lvg2022dist.jar:"
 
 export LVG_DIR JAVA CLASSPATH
 

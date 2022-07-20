@@ -11,8 +11,11 @@ PRs are welcomed.
 ```
     docker login -u doctorevidence
 
-    docker build -t doctorevidence/lexical-tools-lvg:2021 .
-    docker push doctorevidence/lexical-tools-lvg:2021
+    docker build -t doctorevidence/lexical-tools-lvg:2022 .
+    docker push doctorevidence/lexical-tools-lvg:2022
+
+    # To inspect the container you can sh into it
+    docker run --rm -ti --entrypoint /bin/sh  doctorevidence/lexical-tools-lvg:2022
 ```
 
 ### Automated image publish on Docker Hub
