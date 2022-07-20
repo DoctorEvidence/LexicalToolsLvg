@@ -12,7 +12,10 @@ PRs are welcomed.
     docker login -u doctorevidence
 
     docker build -t doctorevidence/lexical-tools-lvg:2022 .
+    docker tag doctorevidence/lexical-tools-lvg:2022 doctorevidence/lexical-tools-lvg:latest
+
     docker push doctorevidence/lexical-tools-lvg:2022
+    docker push doctorevidence/lexical-tools-lvg:latest
 
     # To inspect the container you can sh into it
     docker run --rm -ti --entrypoint /bin/sh  doctorevidence/lexical-tools-lvg:2022
