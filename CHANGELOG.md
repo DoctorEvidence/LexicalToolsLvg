@@ -1,3 +1,8 @@
+### 2024
+
+* Updated to 2024 Lexical tools release
+https://lhncbc.nlm.nih.gov/LSG/Projects/lvg/current/docs/userDoc/install/releaseNotes.html
+
 ### 2022
 
 * Updated to 2022 Lexical Tools release
