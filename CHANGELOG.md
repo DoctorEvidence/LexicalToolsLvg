@@ -1,3 +1,9 @@
+### 2025 
+
+* Updated to 2025 Lexical tools release 
+https://lhncbc.nlm.nih.gov/LSG/Projects/lvg/current/web/download.html 
+* Added docker bake file 
+
 ### 2024
 
 * Updated to 2024 Lexical tools release

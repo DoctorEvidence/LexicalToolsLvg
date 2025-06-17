@@ -1,7 +1,7 @@
-FROM eclipse-temurin:8-jre-alpine as lvg_download
+FROM eclipse-temurin:8-jre-alpine AS lvg_download
 
-ARG LVG_URL=https://data.lhncbc.nlm.nih.gov/public/lsg/lvg/2024/release/lvg2024.tgz
-ARG LVG_SHA1=c9d14fc8cea8b9bf4e02dab3511ad5a446f9a744
+ARG LVG_URL=https://data.lhncbc.nlm.nih.gov/public/lsg/lvg/2025/release/lvg2025.tgz
+ARG LVG_SHA1=777aad51bef5edbe434b46208a66d96e626771b1
 
 WORKDIR /work
 
