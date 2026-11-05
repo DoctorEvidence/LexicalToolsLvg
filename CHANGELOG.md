@@ -1,3 +1,8 @@
+### 2027
+
+* Updated to 2027 Lexical tools release
+https://lhncbc.nlm.nih.gov/LSG/Projects/lvg/current/web/download.html
+
 ### 2025 
 
 * Updated to 2025 Lexical tools release 

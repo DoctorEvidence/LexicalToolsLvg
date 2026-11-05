@@ -12,20 +12,20 @@ PRs are welcomed.
     docker login -u doctorevidence
 
     # Build using bake file, recomended
-    TAG=2025-1 \
-    LVG_URL=https://data.lhncbc.nlm.nih.gov/public/lsg/lvg/2025/release/lvg2025.tgz \
-    LVG_SHA1=777aad51bef5edbe434b46208a66d96e626771b1 \
+    TAG=2027-1 \
+    LVG_URL=https://data.lhncbc.nlm.nih.gov/public/lsg/lvg/2027/release/lvg2027.tgz \
+    LVG_SHA1=f19d88f155fddf37b41fe522747f2257a6aaac3e \
     docker bake --push
 
     # Alternative 
-    docker build -t doctorevidence/lexical-tools-lvg:2025-1 . --load
-    docker tag doctorevidence/lexical-tools-lvg:2025-1 doctorevidence/lexical-tools-lvg:latest
+    docker build -t doctorevidence/lexical-tools-lvg:2027-1 . --load
+    docker tag doctorevidence/lexical-tools-lvg:2027-1 doctorevidence/lexical-tools-lvg:latest
 
-    docker push doctorevidence/lexical-tools-lvg:2025-1
+    docker push doctorevidence/lexical-tools-lvg:2027-1
     docker push doctorevidence/lexical-tools-lvg:latest
 
     # To inspect the container you can sh into it
-    docker run --rm -ti --entrypoint /bin/sh  doctorevidence/lexical-tools-lvg:2024
+    docker run --rm -ti --entrypoint /bin/sh  doctorevidence/lexical-tools-lvg:2027-1
 ```
 
 ### Automated image publish on Docker Hub

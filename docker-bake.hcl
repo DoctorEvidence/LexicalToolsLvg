@@ -11,10 +11,10 @@ variable "TAG" {
 }
 
 variable LVG_URL { 
-    default = "https://data.lhncbc.nlm.nih.gov/public/lsg/lvg/2025/release/lvg2025.tgz"
+    default = "https://data.lhncbc.nlm.nih.gov/public/lsg/lvg/2027/release/lvg2027.tgz"
 }        
 variable LVG_SHA1 { 
-    default = "777aad51bef5edbe434b46208a66d96e626771b1"
+    default = "f19d88f155fddf37b41fe522747f2257a6aaac3e"
 }   
 
 
